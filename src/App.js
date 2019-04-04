@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Procedure from './Procedure';
-import ZipCode from './ZipCode';
+import Form from './Form';
 import Header from './Header';
 import HeatMap from './HeatMap';
 
@@ -11,8 +10,7 @@ class App extends Component {
       <>
       <Header />
       <main className={'wrapper'}>
-        <Procedure />
-        <ZipCode />
+        <Form />
         <HeatMap className={'map'}/>
       </main>
       </>
