@@ -3,6 +3,7 @@ import './App.css';
 import Form from './Form';
 import Header from './Header';
 import HeatMap from './HeatMap';
+import List from './List';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <main className={'wrapper'}>
         <Form />
         <HeatMap className={'map'}/>
+        <List/>
       </main>
       </>
     );
