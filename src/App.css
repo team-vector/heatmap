@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 * {
   box-sizing: border-box;
   background-color: #F7F5F5;
@@ -5,7 +8,7 @@
 
 h1 {
   text-align: center;
-  font-family: 'MuseoSlab-100', 'museo-slab', 'Adelle PE', 'Rockwell', 'Garamond', 'Book Antiqua', 'Georgia', serif;
+  font-family: 'Rockwell', 'Garamond', 'Book Antiqua', 'Georgia', serif;
   color: #FF7700;
   margin-top: 1em;
 }
@@ -16,6 +19,7 @@ p {
   width: 80vw;
   margin: 0 auto;
   color: #5E5F61; 
+  font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
@@ -23,7 +27,7 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-family: 'MuseoSlab-100', 'museo-slab', 'Adelle PE', 'Rockwell', 'Garamond', 'Book Antiqua', 'Georgia', serif;
+  font-family: 'Rockwell', 'Garamond', 'Book Antiqua', 'Georgia', serif;
   color: #5E5F61;
 }
 
@@ -44,7 +48,8 @@ input {
   margin-top: 1em;
   background: transparent;
   font-size: 1em;
-  padding: .75rem 0
+  padding: .75rem 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 form {
@@ -66,6 +71,9 @@ label {
 
 img {
   margin-top: 2em;
+  width: 650px;
+  height: 500px;
+  border: 1px solid #808080;
 }
 
 .fas {
@@ -89,4 +97,28 @@ button:active {
 
 button:hover {
   opacity: .5;
+}
+
+@media(min-width: 950px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    margin-left: 2em;
+  }
+
+  .form {
+    margin-bottom: 6em;
+  }
+
+  input {
+    width: 13em;
+    margin-right: 2em;
+  }
+
+  button {
+    margin-right: 2em;
+  }
 }
