@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './Form';
 import Header from './Header';
+import List from './List';
 import MapContainer from './MapContainer';
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       <Header />
       <main className={'wrapper'}>
         <Form />
+        <List/>
         <MapContainer/>
       </main>
       </>
