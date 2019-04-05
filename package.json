@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "firebase": "^5.9.3",
+    "google-maps-react": "^2.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -25,5 +27,8 @@
   ],
   "devDependencies": {
     "firebase-tools": "^6.5.2"
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5"
   }
 }

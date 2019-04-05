@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './Form';
 import Header from './Header';
-import HeatMap from './HeatMap';
 import List from './List';
+import MapContainer from './MapContainer';
 
 class App extends Component {
   render() {
@@ -12,8 +12,8 @@ class App extends Component {
       <Header />
       <main className={'wrapper'}>
         <Form />
-        <HeatMap className={'map'}/>
         <List/>
+        <MapContainer/>
       </main>
       </>
     );
