@@ -3,7 +3,6 @@
 
 * {
   box-sizing: border-box;
-  background-color: #F7F5F5;
 }
 
 h1 {
@@ -99,6 +98,12 @@ button:hover {
   opacity: .5;
 }
 
+.map {
+    height: 500px;
+    width: 500px;
+    margin-top: 2em;
+}
+
 @media(min-width: 950px) {
   .wrapper {
     display: flex;
@@ -121,4 +126,5 @@ button:hover {
   button {
     margin-right: 2em;
   }
+
 }
