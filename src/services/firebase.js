@@ -13,3 +13,5 @@ firebase.initializeApp({
 export const app = firebase;
 export const firestore = app.firestore();
 export const procedureCollection = firestore.collection('procedures');
+export const hospitalCollection = firestore.collection('hospitals');
+export const resultsCollection = firestore.collection('results');
